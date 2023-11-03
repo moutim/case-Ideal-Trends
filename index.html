@@ -5,120 +5,131 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="O Grupo Ideal Trends é uma empresa de destaque no setor de tendências. Conheça mais sobre os serviços e soluções.">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="description"
+        content="O Grupo Ideal Trends é uma empresa de destaque no setor de tendências. Conheça mais sobre os serviços e soluções.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/index.css">
     <title>Grupo Ideal Trends: A empresa de mudanças</title>
 </head>
 
 <body>
-    <div class="box-contatos">
-        <p>(11) 1234-1234</p>
-        <p>(11) 1234-1234</p>
+    <div class="container-contatos">
+        <div class="centralizar box-contatos">
+            <p>(11) 1234-1234</p>
+            <p>(11) 1234-1234</p>
+        </div>
     </div>
 
     <header>
-        <div>
-            <img src="./assets/images/logo.svg" alt="Logo">
-            <h1>Germinne</h1>
+        <div class="centralizar box-header">
+            <div>
+                <img src="./assets/images/logo.svg" alt="Logo">
+                <h1>Germinne</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li class="abrir-submenu-1">
+                        <a href="">Empresa</a>
+
+                        <ul class="submenu-1">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Empresa</a></li>
+                            <li><a href="">Clientes</a></li>
+                            <li class="abrir-submenu-2">
+                                <a href="">Contatos</a>
+
+                                <ul class="submenu-2">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Empresa</a></li>
+                                    <li><a href="">Clientes</a></li>
+                                    <li><a href="">Contatos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Empresa</a>
-
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Empresa</a></li>
-                        <li><a href="">Clientes</a></li>
-                        <li>
-                            <a href="">Contatos</a>
-
-                            <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Empresa</a></li>
-                                <li><a href="">Clientes</a></li>
-                                <li><a href="">Contatos</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="">Clientes</a>
-                </li>
-                <li>
-                    <a href="">Contatos</a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <article id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Primeiro Slide">
+        <div class="centralizar">
+            <article id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Terceiro Slide">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Segundo Slide">
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </article>
+
+            <article class="box-texto-imagem">
+                <section>
+                    <h2>Teste de HTML e CSS</h2>
+                    <p>Quesitos da avaliação</p>
+                    <ul>
+                        <li>Organização de código</li>
+                        <li>Nível de detalhismo</li>
+                        <li>Tempo de desenvolvimento</li>
+                    </ul>
+                    <p>Obrigado e boa sorte!</p>
+                </section>
+
+                <div>
+                    <img src="https://genevamotorshow.com/wp-content/uploads/2023/06/Porsche_Mission_X-4-325x212.jpg" alt="Imagem 325x212">
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/images/carousel-1.png" alt="Terceiro Slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
-        </article>
+            </article>
 
-        <article>
-            <section>
-                <h2>Teste de HTML e CSS</h2>
-                <p>Quesitos da avaliação</p>
-                <ul>
-                    <li>Organização de código</li>
-                    <li>Nível de detalhismo</li>
-                    <li>Tempo de desenvolvimento</li>
-                </ul>
-                <p>Obrigado e boa sorte!</p>
-            </section>
+            <article class="box-cards">
+                <figure>
+                    <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
 
-            <div>
-                <img src="" alt="Imagem 325x212">
-            </div>
-        </article>
+                <figure>
+                    <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
 
-        <article>
-            <figure>
-                <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
+                <figure>
+                    <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
 
-            <figure>
-                <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
+                <figure>
+                    <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+            </article>
+        </div>
+    </main>
 
-            <figure>
-                <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="https://i.scdn.co/image/ab67616d0000b2731d9dfe2b9445cfe4751d1813" alt="Trulli">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
-        </article>
-
-        <footer>
+    <footer>
+        <div class="centralizar">
             <ul>
                 <li>
                     <a href="">Home</a>
@@ -133,9 +144,8 @@
                     <a href="">Contatos</a>
                 </li>
             </ul>
-        </footer>
-
-    </main>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
