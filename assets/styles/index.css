@@ -162,6 +162,7 @@ a {
 }
 
 .box-cards figure img {
+    border-radius: 5px;
     width: 196px;
     height: 163px;
 }
